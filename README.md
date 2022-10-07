@@ -2,7 +2,7 @@
  Network - mac - private ip - public ip
 
 
-[ ! ] Xcode 12.0 \n
+[ ! ] Xcode 12.0 
 [ ! ] macOS Monterey 12.6
 
 
