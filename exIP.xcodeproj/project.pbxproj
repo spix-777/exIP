@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C728D128F0554B00504224 /* CliIp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C728D028F0554B00504224 /* CliIp.swift */; };
+		58C728D528F090FD00504224 /* MAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C728D428F090FD00504224 /* MAC.swift */; };
+		58DFF7E228EC61EE00BE8121 /* exIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF7E128EC61EE00BE8121 /* exIPApp.swift */; };
+		58DFF7E428EC61EE00BE8121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF7E328EC61EE00BE8121 /* ContentView.swift */; };
+		58DFF7E628EC61F000BE8121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF7E528EC61F000BE8121 /* Assets.xcassets */; };
+		58DFF7E928EC61F000BE8121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF7E828EC61F000BE8121 /* Preview Assets.xcassets */; };
+		58DFF7F428EC61F000BE8121 /* exIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF7F328EC61F000BE8121 /* exIPTests.swift */; };
+		58DFF7FE28EC61F000BE8121 /* exIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF7FD28EC61F000BE8121 /* exIPUITests.swift */; };
+		58DFF80028EC61F000BE8121 /* exIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF7FF28EC61F000BE8121 /* exIPUITestsLaunchTests.swift */; };
+		58DFF82828EC6D1000BE8121 /* SwiftPublicIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DFF81A28EC6CC900BE8121 /* SwiftPublicIP.framework */; };
+		58DFF82928EC6D1000BE8121 /* SwiftPublicIP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58DFF81A28EC6CC900BE8121 /* SwiftPublicIP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58FD31A528EF8242000E31EC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FD31A428EF8242000E31EC /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58DFF7F028EC61F000BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF7D628EC61EE00BE8121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DFF7DD28EC61EE00BE8121;
+			remoteInfo = exIP;
+		};
+		58DFF7FA28EC61F000BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF7D628EC61EE00BE8121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DFF7DD28EC61EE00BE8121;
+			remoteInfo = exIP;
+		};
+		58DFF81728EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D97C1BEFF229002C0205;
+			remoteInfo = "SwiftPublicIP-iOS";
+		};
+		58DFF81928EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6DA0F1BF000BD002C0205;
+			remoteInfo = "SwiftPublicIP-macOS";
+		};
+		58DFF81B28EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D9E21BEFFF6E002C0205;
+			remoteInfo = "SwiftPublicIP-watchOS";
+		};
+		58DFF81D28EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D9F01BEFFFBE002C0205;
+			remoteInfo = "SwiftPublicIP-tvOS";
+		};
+		58DFF81F28EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D9861BEFF229002C0205;
+			remoteInfo = "SwiftPublicIP-iOS Tests";
+		};
+		58DFF82128EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD75027A1C68FCFC006590AF;
+			remoteInfo = "SwiftPublicIP-macOS Tests";
+		};
+		58DFF82328EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD75028D1C690C7A006590AF;
+			remoteInfo = "SwiftPublicIP-tvOS Tests";
+		};
+		58DFF82528EC6CC900BE8121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 760928FE22899824004CAE43;
+			remoteInfo = "SwiftPublicIP-CLI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58DFF82A28EC6D1000BE8121 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58DFF82928EC6D1000BE8121 /* SwiftPublicIP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58C728C328F0529500504224 /* exIP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exIP-Bridging-Header.h"; sourceTree = "<group>"; };
+		58C728D028F0554B00504224 /* CliIp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliIp.swift; sourceTree = "<group>"; };
+		58C728D428F090FD00504224 /* MAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAC.swift; sourceTree = "<group>"; };
+		58DFF7DE28EC61EE00BE8121 /* exIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DFF7E128EC61EE00BE8121 /* exIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exIPApp.swift; sourceTree = "<group>"; };
+		58DFF7E328EC61EE00BE8121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58DFF7E528EC61F000BE8121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DFF7E828EC61F000BE8121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58DFF7EA28EC61F000BE8121 /* exIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = exIP.entitlements; sourceTree = "<group>"; };
+		58DFF7EF28EC61F000BE8121 /* exIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DFF7F328EC61F000BE8121 /* exIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exIPTests.swift; sourceTree = "<group>"; };
+		58DFF7F928EC61F000BE8121 /* exIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DFF7FD28EC61F000BE8121 /* exIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exIPUITests.swift; sourceTree = "<group>"; };
+		58DFF7FF28EC61F000BE8121 /* exIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftPublicIP.xcodeproj; path = "Swift-Public-IP/SwiftPublicIP.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		58FD31A428EF8242000E31EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DFF7DB28EC61EE00BE8121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DFF82828EC6D1000BE8121 /* SwiftPublicIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFF7EC28EC61F000BE8121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFF7F628EC61F000BE8121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DFF7D528EC61EE00BE8121 = {
+			isa = PBXGroup;
+			children = (
+				58DFF7E028EC61EE00BE8121 /* exIP */,
+				58DFF7F228EC61F000BE8121 /* exIPTests */,
+				58DFF7FC28EC61F000BE8121 /* exIPUITests */,
+				58DFF7DF28EC61EE00BE8121 /* Products */,
+				58DFF82728EC6D1000BE8121 /* Frameworks */,
+				58C728C328F0529500504224 /* exIP-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		58DFF7DF28EC61EE00BE8121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DFF7DE28EC61EE00BE8121 /* exIP.app */,
+				58DFF7EF28EC61F000BE8121 /* exIPTests.xctest */,
+				58DFF7F928EC61F000BE8121 /* exIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DFF7E028EC61EE00BE8121 /* exIP */ = {
+			isa = PBXGroup;
+			children = (
+				58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */,
+				58DFF7E128EC61EE00BE8121 /* exIPApp.swift */,
+				58DFF7E328EC61EE00BE8121 /* ContentView.swift */,
+				58C728D428F090FD00504224 /* MAC.swift */,
+				58C728D028F0554B00504224 /* CliIp.swift */,
+				58FD31A428EF8242000E31EC /* Color.swift */,
+				58DFF7E528EC61F000BE8121 /* Assets.xcassets */,
+				58DFF7EA28EC61F000BE8121 /* exIP.entitlements */,
+				58DFF7E728EC61F000BE8121 /* Preview Content */,
+			);
+			path = exIP;
+			sourceTree = "<group>";
+		};
+		58DFF7E728EC61F000BE8121 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58DFF7E828EC61F000BE8121 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58DFF7F228EC61F000BE8121 /* exIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				58DFF7F328EC61F000BE8121 /* exIPTests.swift */,
+			);
+			path = exIPTests;
+			sourceTree = "<group>";
+		};
+		58DFF7FC28EC61F000BE8121 /* exIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58DFF7FD28EC61F000BE8121 /* exIPUITests.swift */,
+				58DFF7FF28EC61F000BE8121 /* exIPUITestsLaunchTests.swift */,
+			);
+			path = exIPUITests;
+			sourceTree = "<group>";
+		};
+		58DFF80D28EC6CC900BE8121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DFF81828EC6CC900BE8121 /* SwiftPublicIP.framework */,
+				58DFF81A28EC6CC900BE8121 /* SwiftPublicIP.framework */,
+				58DFF81C28EC6CC900BE8121 /* SwiftPublicIP.framework */,
+				58DFF81E28EC6CC900BE8121 /* SwiftPublicIP.framework */,
+				58DFF82028EC6CC900BE8121 /* SwiftPublicIP-iOS Tests.xctest */,
+				58DFF82228EC6CC900BE8121 /* SwiftPublicIP-macOS Tests.xctest */,
+				58DFF82428EC6CC900BE8121 /* SwiftPublicIP-tvOS Tests.xctest */,
+				58DFF82628EC6CC900BE8121 /* SwiftPublicIP-CLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DFF82728EC6D1000BE8121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DFF7DD28EC61EE00BE8121 /* exIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DFF80328EC61F000BE8121 /* Build configuration list for PBXNativeTarget "exIP" */;
+			buildPhases = (
+				58DFF7DA28EC61EE00BE8121 /* Sources */,
+				58DFF7DB28EC61EE00BE8121 /* Frameworks */,
+				58DFF7DC28EC61EE00BE8121 /* Resources */,
+				58DFF82A28EC6D1000BE8121 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exIP;
+			productName = exIP;
+			productReference = 58DFF7DE28EC61EE00BE8121 /* exIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58DFF7EE28EC61F000BE8121 /* exIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DFF80628EC61F000BE8121 /* Build configuration list for PBXNativeTarget "exIPTests" */;
+			buildPhases = (
+				58DFF7EB28EC61F000BE8121 /* Sources */,
+				58DFF7EC28EC61F000BE8121 /* Frameworks */,
+				58DFF7ED28EC61F000BE8121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DFF7F128EC61F000BE8121 /* PBXTargetDependency */,
+			);
+			name = exIPTests;
+			productName = exIPTests;
+			productReference = 58DFF7EF28EC61F000BE8121 /* exIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58DFF7F828EC61F000BE8121 /* exIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DFF80928EC61F000BE8121 /* Build configuration list for PBXNativeTarget "exIPUITests" */;
+			buildPhases = (
+				58DFF7F528EC61F000BE8121 /* Sources */,
+				58DFF7F628EC61F000BE8121 /* Frameworks */,
+				58DFF7F728EC61F000BE8121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DFF7FB28EC61F000BE8121 /* PBXTargetDependency */,
+			);
+			name = exIPUITests;
+			productName = exIPUITests;
+			productReference = 58DFF7F928EC61F000BE8121 /* exIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DFF7D628EC61EE00BE8121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					58DFF7DD28EC61EE00BE8121 = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+					58DFF7EE28EC61F000BE8121 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 58DFF7DD28EC61EE00BE8121;
+					};
+					58DFF7F828EC61F000BE8121 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 58DFF7DD28EC61EE00BE8121;
+					};
+				};
+			};
+			buildConfigurationList = 58DFF7D928EC61EE00BE8121 /* Build configuration list for PBXProject "exIP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DFF7D528EC61EE00BE8121;
+			productRefGroup = 58DFF7DF28EC61EE00BE8121 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 58DFF80D28EC6CC900BE8121 /* Products */;
+					ProjectRef = 58DFF80C28EC6CC900BE8121 /* SwiftPublicIP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58DFF7DD28EC61EE00BE8121 /* exIP */,
+				58DFF7EE28EC61F000BE8121 /* exIPTests */,
+				58DFF7F828EC61F000BE8121 /* exIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		58DFF81828EC6CC900BE8121 /* SwiftPublicIP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftPublicIP.framework;
+			remoteRef = 58DFF81728EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF81A28EC6CC900BE8121 /* SwiftPublicIP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftPublicIP.framework;
+			remoteRef = 58DFF81928EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF81C28EC6CC900BE8121 /* SwiftPublicIP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftPublicIP.framework;
+			remoteRef = 58DFF81B28EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF81E28EC6CC900BE8121 /* SwiftPublicIP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftPublicIP.framework;
+			remoteRef = 58DFF81D28EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF82028EC6CC900BE8121 /* SwiftPublicIP-iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftPublicIP-iOS Tests.xctest";
+			remoteRef = 58DFF81F28EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF82228EC6CC900BE8121 /* SwiftPublicIP-macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftPublicIP-macOS Tests.xctest";
+			remoteRef = 58DFF82128EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF82428EC6CC900BE8121 /* SwiftPublicIP-tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftPublicIP-tvOS Tests.xctest";
+			remoteRef = 58DFF82328EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58DFF82628EC6CC900BE8121 /* SwiftPublicIP-CLI */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "SwiftPublicIP-CLI";
+			remoteRef = 58DFF82528EC6CC900BE8121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DFF7DC28EC61EE00BE8121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DFF7E928EC61F000BE8121 /* Preview Assets.xcassets in Resources */,
+				58DFF7E628EC61F000BE8121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFF7ED28EC61F000BE8121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFF7F728EC61F000BE8121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DFF7DA28EC61EE00BE8121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FD31A528EF8242000E31EC /* Color.swift in Sources */,
+				58DFF7E428EC61EE00BE8121 /* ContentView.swift in Sources */,
+				58DFF7E228EC61EE00BE8121 /* exIPApp.swift in Sources */,
+				58C728D128F0554B00504224 /* CliIp.swift in Sources */,
+				58C728D528F090FD00504224 /* MAC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFF7EB28EC61F000BE8121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DFF7F428EC61F000BE8121 /* exIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFF7F528EC61F000BE8121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DFF80028EC61F000BE8121 /* exIPUITestsLaunchTests.swift in Sources */,
+				58DFF7FE28EC61F000BE8121 /* exIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58DFF7F128EC61F000BE8121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DFF7DD28EC61EE00BE8121 /* exIP */;
+			targetProxy = 58DFF7F028EC61F000BE8121 /* PBXContainerItemProxy */;
+		};
+		58DFF7FB28EC61F000BE8121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DFF7DD28EC61EE00BE8121 /* exIP */;
+			targetProxy = 58DFF7FA28EC61F000BE8121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58DFF80128EC61F000BE8121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DFF80228EC61F000BE8121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58DFF80428EC61F000BE8121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = exIP/exIP.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"exIP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tmk-Design.exIP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "exIP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58DFF80528EC61F000BE8121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = exIP/exIP.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"exIP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tmk-Design.exIP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "exIP-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58DFF80728EC61F000BE8121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tmk-Design.exIPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/exIP";
+			};
+			name = Debug;
+		};
+		58DFF80828EC61F000BE8121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tmk-Design.exIPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/exIP";
+			};
+			name = Release;
+		};
+		58DFF80A28EC61F000BE8121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tmk-Design.exIPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = exIP;
+			};
+			name = Debug;
+		};
+		58DFF80B28EC61F000BE8121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tmk-Design.exIPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = exIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DFF7D928EC61EE00BE8121 /* Build configuration list for PBXProject "exIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DFF80128EC61F000BE8121 /* Debug */,
+				58DFF80228EC61F000BE8121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DFF80328EC61F000BE8121 /* Build configuration list for PBXNativeTarget "exIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DFF80428EC61F000BE8121 /* Debug */,
+				58DFF80528EC61F000BE8121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DFF80628EC61F000BE8121 /* Build configuration list for PBXNativeTarget "exIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DFF80728EC61F000BE8121 /* Debug */,
+				58DFF80828EC61F000BE8121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DFF80928EC61F000BE8121 /* Build configuration list for PBXNativeTarget "exIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DFF80A28EC61F000BE8121 /* Debug */,
+				58DFF80B28EC61F000BE8121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58DFF7D628EC61EE00BE8121 /* Project object */;
+}
